@@ -1,13 +1,1194 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
-		<title> 走秀网</title>
-		<script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.js">
-		</script>
+		<title>走秀网</title>
+		<link href="css/pub-style.css" rel="stylesheet" />
+		<script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.js"></script>
+		<script type="text/javascript" src="js/pub-javascript.js"></script>
 	</head>
 
 	<body>
+		<!--头部header-->
+		<div id="header">
+			<!--顶部部分-->
+			<div class="top-logo clearfix">
+				<div class="left-view clearfix">
+					<ul>
+						<!-- #登录界面-->
+						<li>
+							<a href="#">登录/注册</a>
+						</li>
+						<!--#购物界面-->
+						<li class="shop">
+							<a href=" #">购物袋<i>0</i>件</a>
+							<p>购物袋暂时没有商品！</p>
+						</li>
+						<!--#走秀界面-->
+						<li>
+							<a href="#" class="show">我的走秀</a>
+							<ul>
+								<li>
+									<a href="#">我的订单</a>
+								</li>
+								<li>
+									<a href="#">自助退货</a>
+								</li>
+								<li>
+									<a href="#">我的收藏</a>
+								</li>
+								<li>
+									<a href="#">帮助中心</a>
+								</li>
+								<li>
+									<a href="#">全部吐槽</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<a class="logo" href="index.html "> <img src="img/log.png" /> </a>
+
+				<div class="right-view clearfix">
+					<input type="text" placeholder="请搜索Opening Ceremony试试" />
+					<!--待添加搜索功能-->
+					<a href="#"><img src="img/header-search.png" /></a>
+				</div>
+			</div>
+
+			<!--头部下方专题导航部分-->
+			<div class="bottom-nav clearfix">
+				<ul class="clearfix">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">新品</a>
+					</li>
+					<li>
+						<a href="#">男士</a>
+					</li>
+					<li>
+						<a href="#">女士</a>
+					</li>
+					<li>
+						<a href="#">品牌</a>
+					</li>
+					<li>
+						<a href="#">发现</a>
+					</li>
+					<li>
+						<a href="#">专题</a>
+					</li>
+					<li>
+						<a href="#">手机走秀</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--导航nav-->
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="#">包装</a>
+					<div class="pack">
+						<div class="pack1 left-f">
+							<div>
+								<h4><a href="#"><b>女士包袋</b></a></h4>
+								<ul>
+									<li>
+										<a href="#">手提包</a>
+									</li>
+									<li>
+										<a href="#">水桶包</a>
+									</li>
+									<li>
+										<a href="#">链条包</a>
+									</li>
+									<li>
+										<a href="#">购物袋</a>
+									</li>
+									<li>
+										<a href="#">单肩/斜跨包</a><br />
+									</li>
+									<li>
+										<a href="#">提挎两用包</a>
+									</li>
+									<li>
+										<a href="#">化妆包</a>
+									</li>
+									<li>
+										<a href="#">手拿包</a>
+									</li>
+									<li>
+										<a href="#">长款钱包</a>
+									</li>
+									<li>
+										<a href="#">短款钱包</a>
+									</li>
+									<li>
+										<a href="#">卡包/零钱包</a>
+									</li>
+									<li>
+										<a href="#">双肩包</a>
+									</li>
+
+								</ul>
+
+							</div>
+							<div>
+								<h4><a href="#"><b>男士包袋</b></a></h4>
+								<ul>
+									<li>
+										<a href="#">手包</a>
+									</li>
+									<li>
+										<a href="#">洗漱包</a>
+									</li>
+									<li>
+										<a href="#">提挎两用包</a>
+									</li>
+									<li>
+										<a href="#">手提包</a>
+									</li>
+									<li>
+										<a href="#">肩挎包</a><br />
+									</li>
+									<li>
+										<a href="#">双肩包</a>
+									</li>
+									<li>
+										<a href="#">长款钱包</a>
+									</li>
+									<li>
+										<a href="#">短款钱包</a>
+									</li>
+									<li>
+										<a href="#">卡包/零钱包</a>
+									</li>
+									<li>
+										<a href="#">公文包</a>
+									</li>
+
+								</ul>
+
+							</div>
+							<div>
+								<h4><a href="#"><b>功能箱包</b></a></h4>
+								<ul>
+									<li>
+										<a href="#">数码包袋</a>
+									</li>
+									<li>
+										<a href="#">钥匙包</a>
+									</li>
+									<li>
+										<a href="#">名片夹</a>
+									</li>
+									<li>
+										<a href="#">证件夹/套</a>
+									</li>
+									<li>
+										<a href="#">腰包</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<h4><a href="#"><b>旅行箱包</b></a></h4>
+								<ul>
+									<li>
+										<a href="#">登机箱</a>
+									</li>
+									<li>
+										<a href="#">旅行包</a>
+									</li>
+									<li>
+										<a href="#">登山包</a>
+									</li>
+									<li>
+										<a href="#">托运行李箱</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pack2 left-f">
+							<div>
+								<h4><a href="#"><b>热门品牌</b></a></h4>
+								<ul>
+									<li>
+										<a class="red" href="#">Gucci</a>
+									</li>
+									<li>
+										<a class="red" href="#">Louis Vuitton</a>
+									</li>
+									<li>
+										<a class="red" href="#">Prada</a>
+									</li>
+									<li>
+										<a class="red" href="#">Chanel</a>
+									</li>
+									<li>
+										<a class="red" href="#">Burberry</a>
+									</li>
+									<li>
+										<a class="red" href="#">Michael Kors</a>
+									</li>
+									<li>
+										<a class="red" href="#">Bottega Veneta</a>
+									</li>
+									<li>
+										<a class="red" href="#">Dolce&Gabbana</a>
+									</li>
+									<li>
+										<a href="#">Fendi</a>
+									</li>
+									<li>
+										<a href="#">Valentino</a>
+									</li>
+									<li>
+										<a href="#">Chloe</a>
+									</li>
+									<li>
+										<a href="#">Miu Miu</a>
+									</li>
+									<li>
+										<a class="red" href="#">Hermes</a>
+									</li>
+									<li>
+										<a href="#">Saint Laurent</a>
+									</li>
+									<li>
+										<a href="#">Dior</a>
+									</li>
+									<li>
+										<a class="red" href="#">Bally</a>
+									</li>
+									<li>
+										<a class="red" href="#">Givenchy</a>
+									</li>
+									<li>
+										<a href="#">Versace</a>
+									</li>
+									<li>
+										<a href="#">MCM</a>
+									</li>
+									<li>
+										<a class="red" href="#">Coach</a>
+									</li>
+									<li>
+										<a href="#">菲拉格慕</a>
+									</li>
+									<li>
+										<a href="#">Armani Jeans</a>
+									</li>
+									<li>
+										<a href="#">亚历山大·麦昆</a>
+									</li>
+									<li>
+										<a class="red" href="#">Furla</a>
+									</li>
+									<li>
+										<a href="#">Emporio Armani</a>
+									</li>
+									<li>
+										<a href="#">Aspinal of london</a>
+									</li>
+									<li>
+										<a href="#">Moschino</a>
+									</li>
+									<li>
+										<a href="#">Longchamp</a>
+									</li>
+									<li>
+										<a href="#">Issey Miyake</a>
+									</li>
+									<li>
+										<a href="#">Loewe</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">服装</a>
+					<div class="clo">
+						<div class="clo1">
+							<h4><a href="#"><b>男装</b></a></h4>
+							<ul>
+								<li>
+									上装：
+									<a class="red" href="#">t恤</a>
+								</li>
+								<li>
+									<a href="#">背心</a>
+								</li>
+								<li>
+									<a href="#">POLO衫</a>
+								</li>
+								<li>
+									<a class="red" href="#">卫衣</a>
+								</li>
+								<li>
+									<a class="red" href="#">衬衫</a>
+								</li>
+								<li>
+									<a href="#">毛衣/针织衫</a>
+								</li>
+								<li>
+									<a href="#">羊绒衫</a>
+								</li>
+								<li class="white">
+									<a class="red" href="#">夹克</a>
+								</li>
+								<li>
+									<a href="#">皮衣</a>
+								</li>
+								<li>
+									<a href="#">大衣</a>
+								</li>
+								<li>
+									<a href="#">风衣</a>
+								</li>
+								<li>
+									<a href="#">羽绒服</a>
+								</li>
+								<li>
+									<a href="#">棉服</a>
+								</li>
+								<li>
+									<a href="#">正装西服</a>
+								</li>
+								<li>
+									<a href="#">休闲西服</a>
+								</li>
+								<li>
+									<a href="#">马甲</a>
+								</li>
+								<li class="white">
+									<a href="#">棒球夹克</a>
+								</li>
+								<li>
+									<a href="#">牛仔外套</a>
+								</li>
+								<li class="white">
+									<a href="#">外套</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									下装：
+									<a class="red" href="#">休闲裤</a>
+								</li>
+								<li>
+									<a class="red" href="#">牛仔裤</a>
+								</li>
+								<li>
+									<a href="#">西裤</a>
+								</li>
+								<li>
+									<a href="#">短裤</a>
+								</li>
+								<li>
+									<a href="#">沙滩裤</a>
+								</li>
+								<li>
+									<a href="#">针织运动裤</a>
+								</li>
+								<li class="white">
+									<a href="#">皮裤</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									套装：
+									<a href="#">正装套装</a>
+								</li>
+								<li class="white">
+									<a href="#">休闲套装</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									内衣/袜子：
+									<a class="red" href="#">内裤</a>
+								</li>
+								<li>
+									<a href="#">袜子</a>
+								</li>
+								<li class="white">
+									<a href="#">睡衣/家居服</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									运动户外：
+									<a class="red" href="#">运动上装</a>
+								</li>
+								<li>
+									<a class="red" href="#">运动下装</a>
+								</li>
+								<li>
+									<a href="#">运动套装</a>
+								</li>
+								<li>
+									<a href="#">户外装/冲锋衣</a>
+								</li>
+								<li>
+									<a href="#">泳裤</a>
+								</li>
+								<li class="white">
+									<a href="#">沙滩裤</a>
+								</li>
+							</ul>
+							<div>
+								<h4><a href="#"><b>热门品牌</b></a></h4>
+								<ul>
+									<li>
+										<a class="red" href="#">Valentino</a>
+									</li>
+									<li>
+										<a class="red" href="#">Chloe</a>
+									</li>
+									<li>
+										<a href="#">Miu Miu</a>
+									</li>
+									<li>
+										<a class="red" class="red" href="#">Hermes</a>
+									</li>
+									<li>
+										<a href="#">Saint Laurent</a>
+									</li>
+									<li>
+										<a href="#">Dior</a>
+									</li>
+									<li>
+										<a class="red" href="#">Bally</a>
+									</li>
+									<li>
+										<a class="red" href="#">Givenchy</a>
+									</li>
+									<li>
+										<a href="#">Versace</a>
+									</li>
+									<li>
+										<a href="#">MCM</a>
+									</li>
+									<li>
+										<a class="red" href="#">Coach</a>
+									</li>
+									<li>
+										<a class="red" href="#">菲拉格慕</a>
+									</li>
+									<li>
+										<a href="#">Armani Jeans</a>
+									</li>
+									<li>
+										<a href="#">亚历山大·麦昆</a>
+									</li>
+									<li>
+										<a class="red" class="red" href="#">Furla</a>
+									</li>
+									<li>
+										<a href="#">Emporio Armani</a>
+									</li>
+									<li>
+										<a href="#">Aspinal of london</a>
+									</li>
+									<li>
+										<a class="red" href="#">Moschino</a>
+									</li>
+									<li>
+										<a href="#">Longchamp</a>
+									</li>
+									<li>
+										<a class="red" href="#">Issey Miyake</a>
+									</li>
+									<li>
+										<a href="#">Loewe</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+
+						<div class="clo2">
+							<h4><a href="#"><b>女装</b></a></h4>
+							<ul class="three">
+								<li>
+									上装：
+									<a class="red" href="#">T恤</a>
+								</li>
+								<li>
+									<a href="#">吊带/背心</a>
+								</li>
+								<li>
+									<a href="#">雪纺衫</a>
+								</li>
+								<li>
+									<a href="#">上衣</a>
+								</li>
+								<li>
+									<a class="red" href="#">露肩衫</a>
+								</li>
+								<li>
+									<a href="#">卫衣</a>
+								</li>
+								<li>
+									<a href="#">POLO衫</a>
+								</li>
+								<li class="white">
+									<a class="red" href="#">衬衫</a>
+								</li>
+								<li>
+									<a href="#">毛衣/针织衫</a>
+								</li>
+								<li>
+									<a href="#">羊绒衫</a>
+								</li>
+								<li>
+									<a href="#">皮衣</a>
+								</li>
+								<li>
+									<a href="#">皮草</a>
+								</li>
+								<li>
+									<a href="#">大衣服</a>
+								</li>
+								<li>
+									<a href="#">风衣</a>
+								</li>
+								<li>
+									<a href="#">羽绒服</a>
+								</li>
+								<li>
+									<a href="#">棉服</a>
+								</li>
+								<li class="white">
+									<a href="#">西装</a>
+								</li>
+								<li>
+									<a href="#">马甲</a>
+								</li>
+								<li>
+									<a href="#">棒球夹克</a>
+								</li>
+								<li>
+									<a href="#">牛仔外套</a>
+								</li>
+								<li class="white">
+									<a href="#">外套</a>
+								</li>
+							</ul>
+							<ul class="two">
+								<li>
+									下装：
+									<a class="red" href="#">休闲裤</a>
+								</li>
+								<li>
+									<a class="red" href="#">牛仔裤</a>
+								</li>
+
+								<li>
+									<a class="red" href="#">短裤</a>
+								</li>
+								<li>
+									<a href="#">正装裤</a>
+								</li>
+								<li>
+									<a class="red" href="#">阔腿裤</a>
+								</li>
+								<li>
+									<a class="red" href="#">针织运动裤</a>
+								</li>
+								<li class="white">
+									<a href="#">喇叭裤</a>
+								</li>
+								<li>
+									<a href="#">皮裤</a>
+								</li>
+								<li>
+									<a href="#">打底裤</a>
+								</li>
+								<li class="white">
+									<a href="#">连身裤</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									裙装：
+									<a class="red" href="#">连衣裙</a>
+								</li>
+								<li>
+									<a href="#">半身裙</a>
+								</li>
+								<li>
+									<a href="#">针织连衣裙</a>
+								</li>
+								<li class="white">
+									<a href="#">沙滩裙</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									套装：
+									<a href="#">正装套装</a>
+								</li>
+								<li class="white">
+									<a href="#">休闲套装</a>
+								</li>
+							</ul>
+							<ul class="two">
+								<li>
+									内衣/袜子：
+									<a class="red" href="#">内裤</a>
+								</li>
+								<li>
+									<a href="#">文胸</a>
+								</li>
+								<li>
+									<a class="red" href="#">内衣套装</a>
+								</li>
+								<li>
+									<a href="#">塑身内衣</a>
+								</li>
+								<li>
+									<a href="#">袜子</a>
+								</li>
+								<li class="white">
+									<a href="#">打底内衣</a>
+								</li>
+								<li class="white">
+									<a href="#">睡衣/家居服</a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									运动户外：
+									<a href="#">运动上装</a>
+								</li>
+								<li>
+									<a href="#">运动下装</a>
+								</li>
+								<li>
+									<a href="#">运动套装</a>
+								</li>
+								<li>
+									<a href="#">户外装/冲锋衣</a>
+								</li>
+								<li>
+									<a href="#">泳裤</a>
+								</li>
+								<li class="white">
+									<a href="#">沙滩裤</a>
+								</li>
+							</ul>
+							<div>
+								<h4><a href="#"><b>热门品牌</b></a></h4>
+								<ul>
+									<li>
+										<a class="red" href="#">Valentino</a>
+									</li>
+									<li>
+										<a class="red" href="#">Chloe</a>
+									</li>
+									<li>
+										<a href="#">Miu Miu</a>
+									</li>
+									<li>
+										<a class="red" class="red" href="#">Hermes</a>
+									</li>
+									<li>
+										<a href="#">Saint Laurent</a>
+									</li>
+									<li>
+										<a href="#">Dior</a>
+									</li>
+									<li>
+										<a class="red" href="#">Bally</a>
+									</li>
+									<li>
+										<a class="red" href="#">Givenchy</a>
+									</li>
+									<li>
+										<a href="#">Versace</a>
+									</li>
+									<li>
+										<a href="#">MCM</a>
+									</li>
+									<li>
+										<a class="red" href="#">Coach</a>
+									</li>
+									<li>
+										<a class="red" href="#">菲拉格慕</a>
+									</li>
+									<li>
+										<a href="#">Armani Jeans</a>
+									</li>
+									<li>
+										<a href="#">亚历山大·麦昆</a>
+									</li>
+									<li>
+										<a class="red" class="red" href="#">Furla</a>
+									</li>
+									<li>
+										<a href="#">Emporio Armani</a>
+									</li>
+									<li>
+										<a href="#">Aspinal of london</a>
+									</li>
+									<li>
+										<a class="red" href="#">Moschino</a>
+									</li>
+									<li>
+										<a href="#">Longchamp</a>
+									</li>
+									<li>
+										<a class="red" href="#">Issey Miyake</a>
+									</li>
+									<li>
+										<a href="#">Loewe</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+
+					</div>
+				</li>
+				<li>
+					<a href="#">鞋靴</a>
+					<div class="sho">
+						<div class="sho1">
+							<div class="left-f">
+								<div class="women">
+									<h4><a href="#"><b>女鞋</b></a></h4>
+									<ul>
+										<li>
+											<a class="red" href="#">平跟鞋</a>
+										</li>
+										<li>
+											<a href="#">低跟鞋</a>
+										</li>
+										<li>
+											<a href="#">中跟鞋</a>
+										</li>
+										<li>
+											<a class="red" href="#">高跟鞋</a>
+										</li>
+										<li>
+											<a  href="#">坡跟鞋</a>
+										</li>
+										<li class="white" style="width:150px;">
+											<a href="#">增高鞋</a>
+										</li>
+										<li>
+											<a href="#">板鞋</a>
+										</li>
+										<li class="white">
+											<a href="#">一脚蹬</a>
+										</li>
+										<li>
+											<a href="#">乐福鞋</a>
+										</li>
+										<li>
+											<a href="#">草编鞋</a>
+										</li>
+										<li>
+											<a href="#">厚底鞋</a>
+										</li>
+										<li>
+											<a href="#">穆勒鞋</a>
+										</li>
+										<li class="white" style="width:110px;">
+											<a href="#">运动鞋 </a>
+										</li>
+										<li>
+											<a href="#">人字拖</a>
+										</li>
+										<li>
+											<a href="#">凉拖</a>
+										</li>
+										<li>
+											<a href="#">平跟凉鞋</a>
+										</li>
+										<li class="white">
+											<a href="#">中跟凉鞋</a>
+										</li>
+										<li>
+											<a href="#">高跟凉鞋</a>
+										</li>
+										<li>
+											<a href="#">坡跟凉鞋</a>
+										</li>
+										<li class="white">
+											<a href="#">厚底凉鞋</a>
+										</li>
+										<li>
+											<a href="#">切尔西靴</a>
+										</li>
+										<li>
+											<a href="#">马丁靴</a>
+										</li>
+										<li>
+											<a href="#">雪地靴</a>
+										</li>
+										<li>
+											<a href="#">踝靴</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">短靴</a>
+										</li>
+										<li class="white" style="width:170px;">
+											<a href="#">长靴</a>
+										</li>
+										<li>
+											<a  href="#">正装皮鞋</a>
+										</li>
+										<li class="white" style="width:340px;">
+											<a href="#">休闲皮鞋</a>
+										</li>
+										<li>
+											<a href="#">雨靴</a>
+										</li>
+										<li>
+											<a  href="#">家居鞋</a>
+										</li>
+										<li class="white">
+											<a href="#">户外鞋</a>
+										</li>
+									</ul>
+
+								</div>
+
+								<div class="men">
+									<h4><a href="#"><b>男鞋</b></a></h4>
+									<ul>
+										<li>
+											<a class="red" href="#">正装皮鞋</a>
+										</li>
+										<li class="white" style="width:340px;">
+											<a class="red" href="#">休闲皮鞋</a>
+										</li>
+										<li>
+											<a href="#">板鞋</a>
+										</li>
+										<li>
+											<a href="#">一脚蹬</a>
+										</li>
+										<li>
+											<a href="#">乐福鞋</a>
+										</li>
+										<li class="white" style="width:280px;">
+											<a class="red" href="#">运动鞋</a>
+										</li>
+										<li>
+											<a href="#">人字拖</a>
+										</li>
+										<li >
+											<a href="#">凉拖</a>
+										</li>
+										<li class="white" style="width:340px;">
+											<a href="#">凉鞋</a>
+										</li>
+										<li>
+											<a href="#">切尔西靴</a>
+										</li>
+										<li>
+											<a href="#">马丁靴</a>
+										</li>
+										<li>
+											<a href="#">雪地靴</a>
+										</li>
+										<li>
+											<a href="#">沙漠靴</a>
+										</li>
+										<li>
+											<a href="#">短靴</a>
+										</li>
+										<li class="white" style="width:150px;">
+											<a href="#">长靴</a>
+										</li>
+										<li>
+											<a href="#">雨靴</a>
+										</li>
+										<li>
+											<a href="#">家居鞋</a>
+										</li>
+										<li class="white">
+											<a href="#">户外鞋</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="sho2">
+							<h4><a href="#"><b>热门品牌</b></a></h4>
+							<ul>
+									<li>
+										<a class="red" href="#">Gucci</a>
+									</li>
+									<li>
+										<a class="red" href="#">Louis Vuitton</a>
+									</li>
+									<li>
+										<a class="red" href="#">Prada</a>
+									</li>
+									<li>
+										<a class="red" href="#">Chanel</a>
+									</li>
+									<li>
+										<a href="#">Burberry</a>
+									</li>
+									<li>
+										<a class="red" href="#">Michael Kors</a>
+									</li>
+									<li>
+										<a class="red" href="#">Bottega Veneta</a>
+									</li>
+									<li>
+										<a href="#">Dolcbana</a>
+									</li>
+									<li>
+										<a href="#">Fendi</a>
+									</li>
+									<li>
+										<a href="#">Valentino</a>
+									</li>
+									<li>
+										<a class="red" href="#">Chloe</a>
+									</li>
+									<li>
+										<a class="red" href="#">Miu Miu</a>
+									</li>
+									<li>
+										<a href="#">Hermes</a>
+									</li>
+									<li>
+										<a href="#">Saint Laurent</a>
+									</li>
+									<li>
+										<a href="#">Dior</a>
+									</li>
+									<li>
+										<a class="red" href="#">Bally</a>
+									</li>
+									<li>
+										<a class="red"href="#">Givenchy</a>
+									</li>
+									<li>
+										<a href="#">Versace</a>
+									</li>
+									<li>
+										<a  href="#">MCM</a>
+									</li>
+									<li>
+										<a href="#">Coach</a>
+									</li>
+									<li>
+										<a href="#">菲拉格慕</a>
+									</li>
+									<li>
+										<a href="#">Armani Jeans</a>
+									</li>
+									<li>
+										<a href="#">亚历山大·麦昆</a>
+									</li>
+									<li>
+										<a class="red" href="#">Furla</a>
+									</li>
+									<li>
+										<a class="red" href="#">Emporio Armani</a>
+									</li>
+									<li>
+										<a href="#">Aspinal</a>
+									</li>
+									<li>
+										<a href="#">Moschino</a>
+									</li>
+									<li>
+										<a href="#">Longchamp</a>
+									</li>
+									<li>
+										<a class="red" href="#">Issey Miyake</a>
+									</li>
+									<li>
+										<a href="#">Loewe</a>
+									</li>
+									<li>
+										<a href="#">Manolo Blahnik</a>
+									</li>
+									<li>
+										<a href="#">Acne Studios</a>
+									</li>
+									<li>
+										<a href="#">Golden</a>
+									</li>
+									<li>
+										<a href="#">GooseHogan</a>
+									</li>
+									<li>
+										<a href="#">Nike</a>
+									</li>
+									<li>
+										<a class="red" href="#">Rick Owens</a>
+									</li>
+								</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">腕表</a>
+				</li>
+				<li>
+					<a href="#">配饰</a>
+				</li>
+				<li>
+					<a href="#">妆品</a>
+				</li>
+				<li>
+					<a href="#">生活</a>
+				</li>
+				<li>
+					<a href="#">婴童</a>
+				</li>
+				<li>
+					<a href="#">豪车</a>
+				</li>
+			</ul>
+		</div>
+
+		<!--内容content-->
+		<div id="content">
+
+		</div>
+
+		<!--底部footer-->
+		<div id="footer">
+			<!--关注我们-->
+			<div class="top-half">
+				<div class="online-service">
+					<ul>
+						<li>
+							<a href="#"><img src="img/footer-weinxin.png" /></a>
+							<a href="#">在线客服</a>
+						</li>
+						<li>
+							<a href="#"><img src="img/footer-phone.png" /></a>400-888-4499 <br /><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00~24:00</i>
+						</li>
+						<li>
+							<a href="#" style="padding-top:5px;"> <img src="img/footer-message.png" /></a>
+							<a href="#">我要吐槽</a>
+						</li>
+					</ul>
+				</div>
+				<div class="about-us">
+					<ul>
+						<li>
+							<a href="#">招纳贤士</a>
+						</li>
+						<li>
+							<a href="#">CEO邮箱</a>
+						</li>
+						<li>
+							<a href="#">售后服务</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+						<li>
+							<a href="#">关税说明</a>
+						</li>
+						<li>
+							<a href="#">物流配送</a>
+						</li>
+					</ul>
+				</div>
+				<div class="concern-us">
+					<h3>关注我们</h3>
+					<ul class="clearfix">
+						<li>
+							<a href="#"><img src="img/about-us-weixin.png" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/about-us-sina.png" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/about-us-fang.png" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/about-us-fff.png" /></a>
+						</li>
+					</ul>
+
+					<input type="text" placeholder="订阅最新时尚资讯邮件..." />
+					<a href="#"><img src="img/email.png" alt="" /></a>
+
+				</div>
+				<div class="our-app">
+					<p>我们的APP</p>
+					<a href="#"><img src="img/app-weixinQr.jpg" /></a>
+				</div>
+			</div>
+
+			<!--后续宣传-->
+			<div class="bottom-half">
+				<ul class="clearfix">
+					<li>
+						<a href="#">关于走秀</a>
+					</li>
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">媒体报道</a>
+					</li>
+					<li>
+						<a href="#">品牌招商</a>
+					</li>
+					<li>
+						<a href="#">加入走秀</a>
+					</li>
+					<li>
+						<a href="#">网站地图</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+					<li>
+						<a href="#">品牌大全</a>
+					</li>
+					<li>
+						<a href="#">邮件订阅</a>
+					</li>
+					<li>
+						<a href="#">WAP站点</a>
+					</li>
+				</ul>
+
+				<a class="footer-a footer-aa" href="#"> 海外直发</a>
+				<a class="footer-a footer-ab" href="#"> 正品保证</a>
+				<a class="footer-a footer-ab" href="#"> 售后保障</a>
+
+				<p> Copyright&nbsp;&copy;&nbsp;2008-2017&nbsp;<b>Xiu.com</b>&nbsp;深圳走秀网络科技有限公司&nbsp;版权所有&nbsp;.&nbsp;<b><a href="http://www.miibeian.gov.cn">粤ICP备07502993号</a></b></p>
+
+				<a href="#" style="margin-right:22px;">
+					<img src="img/c_01.jpg" /></a>
+				<a href="" style="margin-right:22px;">
+					<img src="img/c_11.jpg" /></a>
+				<a href="http://www.sznet110.gov.cn" style="margin-right:22px;">
+					<img src="img/c_04.jpg" /></a>
+				<a href="http://www.sznet110.gov.cn" style="margin-right:22px;">
+					<img src="img/c_08.jpg" /></a>
+				<a href="">
+					<img src="img/c_09.jpg" /></a>
+			</div>
+
+		</div>
 
 	</body>
 
