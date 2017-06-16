@@ -1,0 +1,131 @@
+#content .homepage div {
+	position: relative;
+}
+
+#content .homepage .bbg {
+	width: 1580px;
+}
+
+#content .homepage .songli {
+	width: 175px;
+	height: 65px;
+	display: block;
+	bottom: 90px;
+	right: 600px;
+	position: absolute;
+	z-index: 10;
+}
+
+#content .homepage .huiyuan {
+	width: 175px;
+	height: 65px;
+	display: block;
+	z-index: 10;
+	position: absolute;
+	bottom: 100px;
+	right: 405px;
+}
+
+#content .homepage .left-app img {
+	position: fixed;
+	top: 288px;
+	left: 60px;
+	z-index: 100;
+	display: none;
+}
+
+#content .homepage .right-view {
+	width: 104px;
+	height: 670px;
+	background: url(../img/righta.png) no-repeat;
+	position: fixed;
+	top: 40px;
+	right: 80px;
+	z-index: 100;
+	display: none;
+	padding: 77px 14px 0;
+}
+
+#content .homepage .right-view a {
+	display: block;
+	float: left;
+	width: 92px;
+	height: 32px;
+	/*background:yellow;*/
+	/*border-bottom:1px solid ;*/
+}
+
+
+/*一口价区*/
+
+
+/*一口价区*/
+
+
+/*一口价区*/
+
+#content .homepage .pirce {
+	width: 1420px;
+	height: 1500px;
+	margin: 0 auto;
+	background: #332c1a;
+	padding: 30px;
+	position: relative;
+}
+
+#content .homepage .pirce a {
+	position: absolute;
+	left: 230px;
+}
+
+
+/*今夏必买*/
+
+
+/*今夏必买*/
+
+
+/*今夏必买*/
+
+#content .homepage .summer {
+	width: 1480px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+#content .homepage .summer .bgt {
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*#content .homepage .summer .content .bgt:next {
+	margin-bottom: 30px;
+}*/
+
+#content .homepage .summer .content {
+	/*height:1480px;*/
+	padding: 32px 120px 0;
+	margin: 0 auto;
+	background: #152525;
+	position: relative;
+}
+
+#content .homepage .summer .content2 {
+	background: #332c1a;
+}
+
+#content .homepage .movePic {
+	position: relative;
+	top: 0;
+}
+
+#content .homepage .summer .content .movePic {
+	display: inline-block;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#content .homepage .summer .content .last {
+	padding-right: 0;
+}

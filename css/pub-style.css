@@ -77,7 +77,7 @@ a {
 #header .top-logo .left-view ul li {
 	position: relative;
 	float: left;
-	margin-right: 3px;
+	margin-right: 5px;
 }
 
 #header .top-logo .left-view ul .shop a {
@@ -107,7 +107,7 @@ a {
 #header .top-logo .left-view ul li:nth-of-type(2):hover p {
 	background: white;
 	display: block;
-	z-index: 100;
+	/*z-index: 100;*/
 }
 
 #header .top-logo .left-view ul li i {
@@ -116,16 +116,22 @@ a {
 	padding: 0 2px;
 }
 
-#header .top-logo .left-view ul li:nth-of-type(3) a.show {
-	background: url(../img/header-top-show1.png) no-repeat 63px 17px;
-	padding-right: 15px;
+#header .top-logo .left-view ul li:nth-of-type(3) .show {
+	background: url(../img/header-top-show1.png) no-repeat 65px 17px;
+	float:left;
+	width:53px;
+	/*padding-right: 15px;*/
 }
 
 #header .top-logo .left-view ul li:nth-of-type(3):hover a.show {
 	background: url(../img/header-top-show2.png) no-repeat right 16px, white;
 	color: red;
+	/*padding-right: 18px;*/
 }
-
+#header .top-logo .left-view ul li:nth-of-type(3) {
+	margin-right: 0px;
+	width:73px;
+}
 #header .top-logo .left-view ul li:nth-of-type(3) ul {
 	position: absolute;
 	top: 28px;
@@ -252,6 +258,7 @@ a {
 	width: 618px;
 	margin: 0 auto;
 	height: 42px;
+	position: relative;
 }
 
 #nav>ul li {
@@ -259,9 +266,10 @@ a {
 	height: 42px;
 	margin-right: 12px;
 	line-height: 42px;
+}
+#nav>ul .position {
 	position: relative;
 }
-
 #nav>ul li:nth-last-of-type(1) {
 	margin-right: 0;
 }
@@ -307,10 +315,9 @@ a {
 	display: block;
 }
 #nav ul li .pack {
-	width: 750px;
+	width: 720px;
 	height: 370px;
 	display:none;
-	
 }
 
 #nav ul li .pack .pack1 {
@@ -336,20 +343,20 @@ a {
 	height: 40px;
 }
 
-#nav ul li .pack div ul li {
+/*公共li样式样式*/
+#nav ul li div div ul li {
 	height: 12px;
 	line-height: 12px;
 	margin: 2px 0 3px 0;
 	padding-right: 12px;
 	background: url(../img/nav-list-bg.png) repeat-Y top right;
 }
-
+/*公共a样式样式*/
 #nav ul li div div a {
 	color: black;
 	font-size: 11px;
 	height: 12px;
 	padding: 0 0 0 3px;
-	/*margin-right:6px;*/
 	line-height: 12px;
 }
 #nav ul li .pack .pack1 div:nth-of-type(1) ul li:nth-of-type(6) {
@@ -446,7 +453,7 @@ a {
 /*服装分类*/
 /*服装分类*/
 #nav ul li .clo{
-	width:750px;
+	width:720px;
 	height:555px;
 	display:none;
 }
@@ -478,12 +485,11 @@ a {
 	height: 275px;
 }
 #nav ul li .clo .clo2{
-	padding:15px;
+	padding-top:15px;
 	position:relative;
 } 
 #nav ul li .clo .clo2 div{
 	right:0;
-	
 }
 #nav ul li .clo div div ul{
 	width:245px;
@@ -510,7 +516,7 @@ a {
 /*鞋靴分类*/
 /*鞋靴分类*/
 #nav ul li .sho{
-	width:750px;
+	width:720px;
 	height:440px;
 	display:none;
 }
@@ -541,32 +547,280 @@ a {
 	display: block;
 }
 
+/*腕表分类*/
+/*腕表分类*/
+/*腕表分类*/
+#nav ul li .wat,
+#nav ul li .pei,
+#nav ul li .life,
+#nav ul li .boy,
+#nav ul li .car,
+#nav ul li .zhuan
+{
+	position:absolute;
+	padding: 15px;
+	background: white;
+	top: 42px;
+	left: 174px;
+	/*display:none;*/
+}
+
+#nav ul li .wat div ul,
+#nav ul li .pei div ul,
+#nav ul li .life div ul,
+#nav ul li .boy div ul,
+#nav ul li .car div ul,
+#nav ul li .zhuan div ul{
+	height: 18px;
+	float:left;
+}
+#nav ul li .wat div ul{
+	height: 40px;
+	
+}
+
+#nav ul li .wat div ul li,
+#nav ul li .pei div ul li,
+#nav ul li .life div ul li,
+#nav ul li .boy div ul li,
+#nav ul li .car div ul li,
+#nav ul li .zhuan div ul li {
+	height: 12px;
+	line-height: 12px;
+	margin: 2px 0 3px 0;
+	padding-right: 12px;
+	background: url(../img/nav-list-bg.png) repeat-Y top right;
+}
+#nav ul li .wat div ul .white,
+#nav ul li .pei div ul .white,
+#nav ul li .life div ul .white,
+#nav ul li .boy div ul .white,
+#nav ul li .car div ul .white,
+#nav ul li .zhuan div ul .white {
+	background: white;
+}
+
+#nav ul li:nth-of-type(4):hover .wat{
+	display: block;
+}
+#nav ul li:nth-of-type(5):hover .pei{
+	display: block;
+}
+#nav ul li:nth-of-type(6):hover .zhuan{
+	display: block;
+}
+#nav ul li:nth-of-type(7):hover .life{
+	display: block;
+}
+#nav ul li:nth-of-type(8):hover .boy{
+	display: block;
+}
+#nav ul li:nth-of-type(9):hover .car{
+	display: block;
+}
+#nav ul li .wat{
+	width:720px;
+	height:610px;
+	background: white;
+	display:none;
+}
+#nav ul li .wat .wat1{
+	width:480px;
+	float:left;
+}
+#nav ul li .wat .wat1 div{
+	width:450px;
+	height:300px;
+}
+
+#nav ul li .wat .wat1 div:nth-of-type(1){
+	border-bottom: 1px dashed gray;
+	margin-bottom: 15px;;
+}
+#nav ul li .wat .wat2 ul li,
+#nav ul li .pei .pei2 ul li,
+#nav ul li .life .life2 ul li,
+#nav ul li .boy .boy2 ul li,
+#nav ul li .car .car2 ul li,
+#nav ul li .zhuan .zhuan2 ul li {
+	width:115px;
+	background: white;
+	margin: 5px 0 5px 0;
+	padding:0;
+}
+
+#nav ul li .wat .wat2,
+#nav ul li .pei .pei2,
+#nav ul li .life .life2,
+#nav ul li .boy .boy2,
+#nav ul li .car .car2,
+#nav ul li .zhuan .zhuan2{
+	width:230px;
+	float:right;
+}
 
 
+/*配饰分类*/
+/*配饰分类*/
+/*配饰分类*/
+#nav ul li .pei{
+	width:720px;
+	height:350px;
+	background: white;
+	display:none;
+}
+#nav ul li .pei .pei1{
+	width:480px;
+	float:left;
+}
+#nav ul li .pei .pei1 div{
+	width:450px;
+	height:80px;
+}
+
+#nav ul li .pei .pei1 div:nth-of-type(1),
+#nav ul li .pei .pei1 div:nth-of-type(2){
+	border-bottom: 1px dashed gray;
+	margin-bottom: 15px;;
+}
+
+/*妆品分类*/
+/*妆品分类*/
+/*妆品分类*/
+#nav ul li .zhuan{
+	width:720px;
+	height:550px;
+	background: white;
+	display:none;
+}
+#nav ul li .zhuan .zhuan1{
+	width:480px;
+	float:left;
+}
+#nav ul li .zhuan .zhuan1 div{
+	width:450px;
+	height:58px;
+}
+#nav ul li .zhuan .zhuan1 .one{
+	height:40px;
+}
+
+#nav ul li .zhuan .zhuan1 div{
+	border-bottom: 1px dashed gray;
+	margin-bottom: 12px;;
+}
+#nav ul li .zhuan .zhuan1 div:nth-last-of-type(1){
+	border:0;
+}
 
 
+/*生活分类*/
+/*生活分类*/
+/*生活分类*/
+
+#nav ul li .life{
+	width:720px;
+	height:640px;
+	background: white;
+	display:none;
+}
+#nav ul li .life .life1{
+	width:480px;
+	float:left;
+}
+#nav ul li .life .life1 div{
+	width:450px;
+	height:58px;
+	margin-bottom: 0px;
+}
+#nav ul li .life .life1 .three{
+	height:74px;
+}
+#nav ul li .life .life1 .one{
+	height:40px;
+}
+#nav ul li .life .life1 div{
+	border-bottom: 1px dashed gray;
+	margin-bottom: 12px;;
+}
+#nav ul li .life .life1 div:nth-last-of-type(1){
+	border:0;
+}
+
+/*婴童分类*/
+/*婴童分类*/
+/*婴童分类*/
+#nav ul li .boy{
+	width:720px;
+	height:435px;
+	background: white;
+	display:none;
+}
+#nav ul li .boy .boy1{
+	width:480px;
+	float:left;
+}
+#nav ul li .boy .boy1 div{
+	width:450px;
+	height:40px;
+}
+#nav ul li .boy .boy1 .two{
+	height:58px;
+}
+
+#nav ul li .boy .boy1 div{
+	border-bottom: 1px dashed gray;
+	margin-bottom: 12px;;
+}
+#nav ul li .boy .boy1 div:nth-last-of-type(1){
+	border:0;
+}
 
 
-
-
-
-
-
-
-
-
-
+/*豪车分类*/
+/*豪车分类*/
+/*豪车分类*/
+#nav ul li .car{
+	width:720px;
+	height:340px;
+	background: white;
+	display:none;
+}
+#nav ul li .car .car1{
+	width:480px;
+	float:left;
+}
+#nav ul li .car .car1 div{
+	width:450px;
+	height:40px;
+	margin-bottom: 0px;
+}
+#nav ul li .car .car1 div{
+	border-bottom: 1px dashed gray;
+	margin-bottom: 12px;;
+}
+#nav ul li .car .car1 div:nth-last-of-type(1){
+	border:0;
+}
 
 
 
 /*内容content*/
+/*内容content*/
+/*内容content*/
+/*内容content*/
 
-#content {
+#content{
+	width:100%;
 	background:black;
-	min-height: 800px;
+	min-height: 6000px;
+	/*height:auto;*/
 }
 
 
+/*底部footer*/
+/*底部footer*/
+/*底部footer*/
 /*底部footer*/
 
 
@@ -581,6 +835,9 @@ a {
 }
 
 
+/*在线客服部分*/
+/*在线客服部分*/
+/*在线客服部分*/
 /*在线客服部分*/
 
 #footer .top-half .online-service {
@@ -628,6 +885,9 @@ a {
 
 
 /*关于我们、售后部分*/
+/*关于我们、售后部分*/
+/*关于我们、售后部分*/
+/*关于我们、售后部分*/
 
 #footer .top-half .about-us {
 	position: absolute;
@@ -643,6 +903,9 @@ a {
 }
 
 
+
+/*关注我们部分*/
+/*关注我们部分*/
 /*关注我们部分*/
 
 #footer .top-half .concern-us {
@@ -680,7 +943,9 @@ a {
 }
 
 #footer .top-half .concern-us input {
-	width: 227px;
+	width: 225px;
+	float: left;
+	
 	height: 26px;
 	text-indent: 10px;
 	background: #faf6f5;
@@ -688,12 +953,15 @@ a {
 }
 
 #footer .top-half .concern-us a {
-	float: right;
+	float: left;
 	width: 28px;
 	height: 28px;
 }
 
 
+
+/*我们的APP*/
+/*我们的APP*/
 /*我们的APP*/
 
 #footer .top-half .our-app {
@@ -715,6 +983,8 @@ a {
 }
 
 
+/*后续宣传*/
+/*后续宣传*/
 /*后续宣传*/
 
 #footer .bottom-half {
