@@ -60,9 +60,53 @@
 }
 
 #find .radius-nav a {
-	margin-right: 53px;
-	float:left;
+	width: 220px;
+	height: 220px;
+	margin: 0 10px 0;
+	float: left;
+	text-align: center;
 }
-#find .radius-nav a:hover{
-	margin-right: 53px;
+
+#find .radius-nav a img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#find .radius-nav a i {
+	display: inline-block;
+	height: 100%;
+	width: 0;
+	vertical-align: middle;
+}
+
+/*瀑布流*/
+#find .pic .content {
+	position:relative;
+	width:1200px;
+}
+#find .pic .content .box {
+	width:380px;
+	margin:40px 10px;
+	float: left;
+}
+
+#find .pic .content .box .sbox{
+	margin-top:20px 0 10px;
+	border:1px solid beige;
+	border-top:0px;
+}
+#find .pic .content .box a{
+	color:black;
+}
+#find .pic .content .box h3{
+	font-size:20px;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+#find .pic .content .box h3,
+#find .pic .content .box p{
+	padding:0 25px;
+}
+#find .pic .content .box{
+	border-radius: 5px;
 }

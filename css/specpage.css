@@ -1,0 +1,37 @@
+#spec{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	padding-top: 10px;
+}
+#spec li{
+	width:580px;
+	margin:10px 10px;
+	position:relative;	
+	overflow: hidden;
+}
+#spec li a{
+	width:580px;
+	height:300px;
+	float:left;
+}
+#spec ul li>img{
+	width:580px;
+	position: absolute;
+	top:-5px;
+	left:-5px;
+	z-index:-1;
+	transition:500ms;
+}
+#spec ul li:hover >img{
+	width:600px;
+}
+#spec ul li a img,
+#spec ul li a i {
+	display: inline-block;
+	vertical-align: middle;
+}
+#spec ul li a i {
+	width: 0;
+	height:100%;
+}
