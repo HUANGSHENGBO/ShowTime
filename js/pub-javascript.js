@@ -65,8 +65,8 @@ $(function() {
 
 	var _summerList = $('.summer .content1');
 	for(let i = 1; i <= 3; i++) {
-		let listTitle = _summerList.append('<img src="img/m_summer_t' + i + '.jpg" clss="bgt"/>');
-		if(i == 1) {
+		let listTitle = _summerList.append('<img  class="bgt" src="img/m_summer_t' + i + '.jpg" />');
+	if(i == 1) {
 			for(let j = 1; j < 11; j++) {
 				j = format(j, 2);
 				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_summer_' + j + '.jpg" /></a>')
@@ -83,7 +83,7 @@ $(function() {
 	}
 		var _summerList = $('.summer .content2');
 	for(let i = 1; i <= 2; i++) {
-		let listTitle = _summerList.append('<img src="img/w_summer_t' + i + '.jpg" clss="bgt"/>');
+		let listTitle = _summerList.append('<img class="bgt" src="img/w_summer_t' + i + '.jpg" />');
 		if(i == 1) {
 			for(let j = 1; j < 13; j++) {
 				j = format(j, 2);

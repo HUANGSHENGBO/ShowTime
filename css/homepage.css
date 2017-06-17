@@ -40,10 +40,10 @@
 	background: url(../img/righta.png) no-repeat;
 	position: fixed;
 	top: 40px;
-	right: 80px;
+	right: 75px;
 	z-index: 100;
 	display: none;
-	padding: 77px 14px 0;
+	padding-top: 77px;
 }
 
 #content .homepage .right-view a {
@@ -57,11 +57,7 @@
 
 
 /*一口价区*/
-
-
 /*一口价区*/
-
-
 /*一口价区*/
 
 #content .homepage .pirce {
@@ -77,36 +73,34 @@
 	position: absolute;
 	left: 230px;
 }
-
-
-/*今夏必买*/
-
-
-/*今夏必买*/
-
+#content .homepage .bbgt{
+	display:block;
+	margin:0 auto;
+}
 
 /*今夏必买*/
-
+/*今夏必买*/
+/*今夏必买*/
 #content .homepage .summer {
 	width: 1480px;
 	padding-top: 50px;
 	margin: 0 auto;
 }
 
-#content .homepage .summer .bgt {
-	width: 1200px;
+#content .homepage .summer .bbgt {
+	/*width: 1200px;*/
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 25px;
 }
 
-/*#content .homepage .summer .content .bgt:next {
-	margin-bottom: 30px;
-}*/
+#content .homepage .summer .content .bgt{
+	display: block;
+	margin: 0 auto 15px;
+}
 
 #content .homepage .summer .content {
-	/*height:1480px;*/
-	padding: 32px 120px 0;
-	margin: 0 auto;
+	padding: 32px 129px 40px;
+	margin: 0 auto 60px;
 	background: #152525;
 	position: relative;
 }
@@ -121,9 +115,8 @@
 }
 
 #content .homepage .summer .content .movePic {
-	display: inline-block;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	float:left;
+	margin:0 10px 20px;
 }
 
 #content .homepage .summer .content .last {

@@ -297,6 +297,7 @@ a {
 	background: white;
 	top: 42px;
 	left: 0;
+	z-index: 100;
 	/*display:none;*/
 }
 #nav ul li .pack div ul li,
@@ -562,6 +563,8 @@ a {
 	background: white;
 	top: 42px;
 	left: 174px;
+	z-index: 100;
+	
 	/*display:none;*/
 }
 
