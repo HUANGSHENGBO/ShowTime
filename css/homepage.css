@@ -35,21 +35,23 @@
 }
 
 #content .homepage .right-view {
-	width: 104px;
+	width: 120px;
 	height: 670px;
-	background: url(../img/righta.png) no-repeat;
+	background: url(../img/righta.png) no-repeat left top;
 	position: fixed;
 	top: 40px;
 	right: 75px;
 	z-index: 100;
 	display: none;
 	padding-top: 77px;
+	padding-left: 10px;
+	
 }
 
 #content .homepage .right-view a {
 	display: block;
 	float: left;
-	width: 92px;
+	width: 100px;
 	height: 32px;
 	/*background:yellow;*/
 	/*border-bottom:1px solid ;*/
@@ -81,31 +83,31 @@
 /*今夏必买*/
 /*今夏必买*/
 /*今夏必买*/
-#content .homepage .summer {
+#content .homepage .tilte {
 	width: 1480px;
-	padding-top: 50px;
+	padding-top: 30px;
 	margin: 0 auto;
 }
 
-#content .homepage .summer .bbgt {
+#content .homepage .tilte .bbgt {
 	/*width: 1200px;*/
 	display: block;
-	margin: 0 auto 25px;
+	margin: 0 auto 20px;
 }
 
-#content .homepage .summer .content .bgt{
+#content .homepage .tilte .content .bgt{
 	display: block;
-	margin: 0 auto 15px;
+	margin: 0 auto 10px;
 }
 
-#content .homepage .summer .content {
-	padding: 32px 129px 40px;
-	margin: 0 auto 60px;
+#content .homepage .tilte .content {
+	padding: 15px 129px 0px;
+	margin: 0 auto;
 	background: #152525;
 	position: relative;
 }
 
-#content .homepage .summer .content2 {
+#content .homepage .tilte .content2 {
 	background: #332c1a;
 }
 
@@ -114,11 +116,15 @@
 	top: 0;
 }
 
-#content .homepage .summer .content .movePic {
+#content .homepage .tilte .content .movePic {
 	float:left;
 	margin:0 10px 20px;
 }
 
-#content .homepage .summer .content .last {
+#content .homepage .tilte .content .last {
 	padding-right: 0;
+}
+
+#content .homepage .men{
+	background:#152525;
 }

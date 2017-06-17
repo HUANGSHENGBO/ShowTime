@@ -1,4 +1,5 @@
 $(function() {
+	
 
 	// header-top-right 搜索框
 	var oBt = document.querySelector("#header .right-view input");
@@ -15,7 +16,7 @@ $(function() {
 	$(window).scroll(function() {
 		var scrollT = document.documentElement.srcollTop || document.body.scrollTop;
 		console.log(scrollT);
-		if(scrollT > 300) {
+		if(scrollT > 290) {
 			rightB.css('display', 'block');
 			leftA.css('display', 'block');
 		} else {
@@ -63,6 +64,9 @@ $(function() {
 		}, 200);
 	});
 
+
+// 今夏必买
+// 今夏必买
 	var _summerList = $('.summer .content1');
 	for(let i = 1; i <= 3; i++) {
 		let listTitle = _summerList.append('<img  class="bgt" src="img/m_summer_t' + i + '.jpg" />');
@@ -81,7 +85,7 @@ $(function() {
 			}
 		}
 	}
-		var _summerList = $('.summer .content2');
+	 _summerList = $('.summer .content2');
 	for(let i = 1; i <= 2; i++) {
 		let listTitle = _summerList.append('<img class="bgt" src="img/w_summer_t' + i + '.jpg" />');
 		if(i == 1) {
@@ -95,7 +99,65 @@ $(function() {
 			}
 		}
 	}
-	
+//男士专场
+//男士专场
+	var menList = $('.men .content1');
+	for(let i = 1; i <= 3; i++) {
+		let listTitle = menList.append('<img  class="bgt" src="img/m_clothing_t' + i + '.jpg" />');
+	if(i == 1) {										
+			for(let j = 1; j < 5; j++) {
+				j = format(j, 2);
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_clothing_' + j + '.jpg" /></a>')
+			}
+		} else if(i == 2) {
+			for(let j = 5; j < 15; j++) {
+				j = format(j, 2);
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_clothing_' + j + '.jpg" /></a>')
+			}
+		} else {
+			for(let j = 15; j <= 47; j++) {
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_clothing_' + j + '.jpg" /></a>')
+			}
+		}
+	}
+		mencloList = $('.men .choe');
+	for(let i = 1; i <= 6; i++) {
+		let listTitle = mencloList.append('<img class="bgt" src="img/m_shoes_t' + i + '.jpg" />');
+		if(i == 1) {
+			for(let j = 1; j < 4; j++) {
+				j = format(j, 2);
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			}
+		} else if(i == 2) {
+			for(let j = 4; j < 7; j++) {
+				j = format(j, 2);
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			}
+		}
+		 else if(i == 3) {
+			for(let j = 4; j < 7; j++) {
+				j = format(j, 2);
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			}
+		}
+		  else if(i == 4) {
+			for(let j = 7; j < 15; j++) {
+				j = format(j, 2);
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			}
+		}
+		   else if(i == 5) {
+			for(let j = 15; j < 27; j++) {
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			}
+		}
+		    else if(i == 6) {
+			for(let j = 27; j < 33; j++) {
+				listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			}
+		}
+	}
+
 		$('#content .homepage .summer .movePic').mouseover(function() {
 		let top = $(this).css("top");
 		console.log($(this).css("top"));
