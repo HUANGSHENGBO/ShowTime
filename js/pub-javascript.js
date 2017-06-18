@@ -9,6 +9,18 @@ $(function() {
 	oBt.onblur = function() {
 		this.placeholder = searchPlace;
 	}
+	
+	//背景加载有问题
+	//背景加载有问题
+	//背景加载有问题
+	
+	$('#header .bottom-nav ul li').click(function(){
+		$(this).css('background','url(../img/header-bottom-hover-bg.png) repeat-X left 40px').siblings().css('background','')
+//		alert($(this).css('background'));
+//		console.log($(this).siblings());
+	});
+	
+	
 	// 主页左右导航效果
 	var leftA = $('#content>.homepage>.left-app img');
 	var rightB = $('#content>.homepage>.right-view');
@@ -16,11 +28,11 @@ $(function() {
 		var scrollT = document.documentElement.srcollTop || document.body.scrollTop;
 //		console.log(scrollT);
 		if(scrollT > 290) {
-			rightB.css('display', 'block');
-			leftA.css('display', 'block');
+			rightB.fadeIn(300);
+			leftA.fadeIn(300);
 		} else {
-			rightB.css('display', 'none');
-			leftA.css('display', 'none');
+			rightB.fadeOut(300);
+			leftA.fadeOut(300);
 		}
 	});
 	//一口价区域
@@ -62,33 +74,33 @@ AnchorClick = function(obj) {
 // 今夏必买
 var _summerList = $('.summer .content1');
 for(let i = 1; i <= 3; i++) {
-	let listTitle = _summerList.append('<img  class="bgt" src="img/m_summer_t' + i + '.jpg" />');
+	let listTitle = _summerList.append('<img  class="bgt" data-original="img/m_summer_t' + i + '.jpg" />');
 	if(i == 1) {
 		for(let j = 1; j < 11; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_summer_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_summer_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 2) {
 		for(let j = 11; j < 25; j++) {
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_summer_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_summer_' + j + '.jpg" /></a>')
 		}
 	} else {
 		for(let j = 25; j <= 29; j++) {
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_summer_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_summer_' + j + '.jpg" /></a>')
 		}
 	}
 }
 _summerList = $('.summer .content2');
 for(let i = 1; i <= 2; i++) {
-	let listTitle = _summerList.append('<img class="bgt" src="img/w_summer_t' + i + '.jpg" />');
+	let listTitle = _summerList.append('<img class="bgt" data-original="img/w_summer_t' + i + '.jpg" />');
 	if(i == 1) {
 		for(let j = 1; j < 13; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/w_summer_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/w_summer_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 2) {
 		for(let j = 13; j < 25; j++) {
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/w_summer_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/w_summer_' + j + '.jpg" /></a>')
 		}
 	}
 }
@@ -96,57 +108,63 @@ for(let i = 1; i <= 2; i++) {
 //男士专场
 var menList = $('.men .content1');
 for(let i = 1; i <= 3; i++) {
-	let listTitle = menList.append('<img  class="bgt" src="img/m_clothing_t' + i + '.jpg" />');
+	let listTitle = menList.append('<img  class="bgt" data-original="img/m_clothing_t' + i + '.jpg" />');
 	if(i == 1) {
 		for(let j = 1; j < 5; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_clothing_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_clothing_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 2) {
 		for(let j = 5; j < 15; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_clothing_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_clothing_' + j + '.jpg" /></a>')
 		}
 	} else {
 		for(let j = 15; j <= 47; j++) {
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_clothing_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_clothing_' + j + '.jpg" /></a>')
 		}
 	}
 }
 mencloList = $('.men .choe');
 for(let i = 1; i <= 6; i++) {
-	let listTitle = mencloList.append('<img class="bgt" src="img/m_shoes_t' + i + '.jpg" />');
+	let listTitle = mencloList.append('<img class="bgt" data-original="img/m_shoes_t' + i + '.jpg" />');
 	if(i == 1) {
 		for(let j = 1; j < 4; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_shoes_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 2) {
 		for(let j = 4; j < 7; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_shoes_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 3) {
 		for(let j = 4; j < 7; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_shoes_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 4) {
 		for(let j = 7; j < 15; j++) {
 			j = format(j, 2);
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_shoes_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 5) {
 		for(let j = 15; j < 27; j++) {
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_shoes_' + j + '.jpg" /></a>')
 		}
 	} else if(i == 6) {
 		for(let j = 27; j < 33; j++) {
-			listTitle.append('<a class="movePic" href="#"><img class="bg" src="img/m_shoes_' + j + '.jpg" /></a>')
+			listTitle.append('<a class="movePic" href="#"><img class="bg" data-original="img/m_shoes_' + j + '.jpg" /></a>')
 		}
 	}
 }
-	$("img").lazyload({ effect: "fadeIn" });
+
+//	placeholder : "img/grey.gif"
+	$("img").lazyload({ 
+		 placeholder: 'img/imgload.jpg',
+		 effect: "fadeIn",
+	});
+		 
 //格式化
 function format(index, num) {
 	var str = index.toString();

@@ -1,5 +1,7 @@
 $(function(e) {
 
+
+
 	//轮播图
 	$('#b').unslider({
 		dots: true
@@ -101,6 +103,9 @@ $(function(e) {
 		});
 	}
 	
-	
+		$("img").lazyload({ 
+		 placeholder: '../img/imgload.jpg',
+		 effect: "fadeIn",
+	});
 	
 })

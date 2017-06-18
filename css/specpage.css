@@ -6,28 +6,51 @@
 }
 #spec li{
 	width:580px;
+	height:290px;
 	margin:10px 10px;
 	position:relative;	
 	overflow: hidden;
 }
+#spec div{
+	width:1200px;
+	margin:0 auto;
+	border-top: 1px solid black;
+	margin:30px 10px 50px;
+	position:relative;
+}
+#spec div .more{
+	font-size: 16px;
+	line-height: 30px;
+	width:130px;
+	height:30px;
+	background:#333333;
+	position: absolute;
+	top:-15px;
+	left:525px;
+}
+
 #spec li a{
 	width:580px;
-	height:300px;
+	height:290px;
 	float:left;
 }
+
 #spec ul li>img{
 	width:580px;
+	height:290px;
 	position: absolute;
-	top:-5px;
-	left:-5px;
-	z-index:-1;
+	top:0;
+	left:0;
+	z-index:2;
 	transition:500ms;
 }
 #spec ul li:hover >img{
-	width:600px;
+	transform:scale(1.1);
 }
 #spec ul li a img,
 #spec ul li a i {
+	position: relative;
+	z-index:3;
 	display: inline-block;
 	vertical-align: middle;
 }

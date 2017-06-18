@@ -4,11 +4,14 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>走秀网</title>
-		<link href="css/pub-style.css" rel="stylesheet" />
-		<link href="css/homepage.css" rel="stylesheet" />
+		<link href="../css/pub-style.css" rel="stylesheet" />
+		<link href="../css/homepage.css" rel="stylesheet" />
+		<link href="../css/brandpage.css" rel="stylesheet" />
 		<script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.js"></script>
-		<script src="js/jquery.lazyload.js"></script>
-		<script type="text/javascript" src="js/pub-javascript.js"></script>
+		<script src="../js/jquery.lazyload.js"></script>
+		<script src="../js/pub-javascript.js"></script>
+		<script src="../js/brand.js"></script>
+
 	</head>
 
 	<body>
@@ -50,12 +53,12 @@
 						</li>
 					</ul>
 				</div>
-				<a class="logo" href="index.html "> <img data-original="img/log.png" /> </a>
+				<a class="logo" href="index.html "> <img data-original="../img/log.png" /> </a>
 
 				<div class="right-view clearfix">
 					<input type="text" placeholder="请搜索Opening Ceremony试试" />
 					<!--待添加搜索功能-->
-					<a href="#"><img data-original="img/header-search.png" /></a>
+					<a href="#"><img data-original="../img/header-search.png" /></a>
 				</div>
 			</div>
 
@@ -63,7 +66,7 @@
 			<div class="bottom-nav clearfix">
 				<ul class="clearfix">
 					<li>
-						<a href="index.html">首页</a>
+						<a href="../index.html">首页</a>
 					</li>
 					<li>
 						<a href="#">新品</a>
@@ -75,16 +78,16 @@
 						<a href="#">女士</a>
 					</li>
 					<li>
-						<a href="html/indexbrand.html">品牌</a>
+						<a href="indexbrand.html">品牌</a>
 					</li>
 					<li>
-						<a href="html/indexfind.html">发现</a>
+						<a href="indexfind.html">发现</a>
 					</li>
 					<li>
-						<a href="html/indexspec.html">专题</a>
+						<a href="indexspec.html" >专题</a>
 					</li>
 					<li>
-						<a href="html/indexapp.html" target="_blank">手机走秀</a>
+						<a href="indexapp.html" target="_blank">手机走秀</a>
 					</li>
 				</ul>
 			</div>
@@ -3231,104 +3234,51 @@
 			</div>
 
 			<!--内容content-->
-			<div id="content">
+			<div id="content" class="clearfix" style="background:white">
 				<!--主页部分-->
-				<div class="homepage">
-					<!--主页背景-->
-					<div class="clearfix">
-						<img class="left-f bbg" data-original="img/top_01.jpg" />
-						<img class="left-f bbg" data-original="img/top_02.gif" />
-						<img class="left-f bbg" data-original="img/top_03.jpg" />
-						<img class="left-f bbg" data-original="img/top_04.jpg" />
-						<img class="left-f bbg" data-original="img/top_05.jpg" />
-						<a class="songli" href="#"></a>
-						<a class="huiyuan" href="#"></a>
-					</div>
-					<!--左右导航效果-->
-					<a class="left-app" href=""> <img data-original="img/left-small.png" /> </a>
-					<div class="right-view">
-						<a style="height:35px" href="#pirce"></a>
-						<a href="#summer"></a>
-						<a href="#men"></a>
-						<a style="width:50px" href="#cloes"></a>
-						<a style="width:50px" href="#che"></a>
-						<a style="width:50px" href="#"></a>
-						<a style="width:50px" href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a style="width:50px" href="#"></a>
-						<a style="width:50px" href="#"></a>
-						<a style="width:50px" href="#"></a>
-						<a style="width:50px" href="#"></a>
-						<a href="#"></a>
-						<a style="height:33px" href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a style="height:29px" href="#"></a>
-						<a style="height:29px" href="#nav"></a>
-					</div>
-					<!--一口价区域-->
-					<!--一口价区域-->
-					<div class="pirce clearfix" id="pirce">
-						<img class="bbgt" data-original="img/yikoujia_t.jpg" >
-						<a class="movePic" href=""><img data-original="img/yikoujia_01.jpg" alt="" /></a>
-						<a class="movePic" href=""><img data-original="img/yikoujia_02.jpg" alt="" /></a>
-						<a class="movePic" href=""><img data-original="img/yikoujia_03.jpg" alt="" /></a>
-						<a class="movePic" href=""><img data-original="img/yikoujia_04.jpg" alt="" /></a>
-					</div>
-					<!--今夏必买-->
-					<!--今夏必买-->
-					<!--今夏必买-->
-					<div class="summer tilte" id="summer">
-						<img class="bbgt" data-original="img/summer_t.jpg" />
-						<div class="content content1 clearfix">
-							<img class="bgt" data-original="img/m_summer_t.jpg" />
-						</div>
-						<div class="content content2 clearfix">
-							<img class="bgt" data-original="img/w_summer_t.jpg" />
-						</div>
-						<div class="content content3 clearfix">
-							<img class="bgt" data-original="img/l_summer_t.jpg" />
-							<a class="movePic" href="#"><img class="bg" data-original="img/l_summer_01.jpg" /></a>
-							<a class="movePic" href="#"><img class="bg" data-original="img/l_summer_02.jpg" /></a>
+				<div id="brand" class="clearfix">
+					<p class="title">您的位置：
+						<a href="../index.html">走秀首页</a>>品牌馆</p>
+					<div class="fixed">
+						<div class="nav">
+							<ul class="a clearfix">
+								<a href="#">服饰</a>
+								<a href="#">妆品</a>
+								<a href="#">生活</a>
+							</ul>
+							<ul class="b clearfix">
+								<b class="left-f">按字母查找：</b>
+								<div></div>
+								<a href="#">A</a>
+								<a href="#">B</a>
+								<a href="#">C</a>
+								<a href="#">D</a>
+								<a href="#">E</a>
+								<a href="#">F</a>
+								<a href="#">G</a>
+								<a href="#">H</a>
+								<a href="#">I</a>
+								<a href="#">G</a>
+								<a href="#">K</a>
+								<a href="#">L</a>
+								<a href="#">M</a>
+								<a href="#">N</a>
+								<a href="#">O</a>
+								<a href="#">P</a>
+								<a href="#">Q</a>
+								<a href="#">R</a>
+								<a href="#">S</a>
+								<a href="#">T</a>
+								<a href="#">U</a>
+								<a href="#">V</a>
+								<a href="#">W</a>
+								<a href="#">X</a>
+								<a href="#">Y</a>
+								<a href="#">Z</a>
+								<a href="#" style="width:40px;">0~9</a>
+							</ul>
 						</div>
 					</div>
-					<!--男士区-->
-					<!--男士区-->
-					<!--男士区-->
-					<img  id="men"  style="width:1583px;display: block;"data-original="img/men_t.jpg" />
-					<div class="men tilte" style="padding-top:30px;">
-						
-						<div class="content content1 clearfix" id="cloes">
-							<img class="bbgt" style="margin-bottom:0"data-original="img/m_clothing_t.jpg" />
-						</div>
-						<div class="content choe clearfix" id="che">
-							<img class="bbgt" data-original="img/m_shoes_t.jpg" />
-						</div>
-						<div class="content content4 clearfix">
-						</div>
-					</div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-
 				</div>
 				<div class="new"></div>
 				<div class="man"></div>
@@ -3347,14 +3297,14 @@
 					<div class="online-service">
 						<ul>
 							<li>
-								<a href="#"><img data-original="img/footer-weinxin.png" /></a>
+								<a href="#"><img data-original="../img/footer-weinxin.png" /></a>
 								<a href="#">在线客服</a>
 							</li>
 							<li>
-								<a href="#"><img data-original="img/footer-phone.png" /></a>400-888-4499 <br /><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00~24:00</i>
+								<a href="#"><img data-original="../img/footer-phone.png" /></a>400-888-4499 <br /><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00~24:00</i>
 							</li>
 							<li>
-								<a href="#" style="padding-top:5px;"> <img data-original="img/footer-message.png" /></a>
+								<a href="#" style="padding-top:5px;"> <img data-original="../img/footer-message.png" /></a>
 								<a href="#">我要吐槽</a>
 							</li>
 						</ul>
@@ -3385,26 +3335,26 @@
 						<h3>关注我们</h3>
 						<ul class="clearfix">
 							<li>
-								<a href="#"><img data-original="img/about-us-weixin.png" /></a>
+								<a href="#"><img data-original="../img/about-us-weixin.png" /></a>
 							</li>
 							<li>
-								<a href="#"><img data-original="img/about-us-sina.png" /></a>
+								<a href="#"><img data-original="../img/about-us-sina.png" /></a>
 							</li>
 							<li>
-								<a href="#"><img data-original="img/about-us-fang.png" /></a>
+								<a href="#"><img data-original="../img/about-us-fang.png" /></a>
 							</li>
 							<li>
-								<a href="#"><img data-original="img/about-us-fff.png" /></a>
+								<a href="#"><img data-original="../img/about-us-fff.png" /></a>
 							</li>
 						</ul>
 
 						<input type="text" placeholder="订阅最新时尚资讯邮件..." />
-						<a href="#"><img data-original="img/email.png" alt="" /></a>
+						<a href="#"><img data-original="../img/email.png" alt="" /></a>
 
 					</div>
 					<div class="our-app">
 						<p>我们的APP</p>
-						<a href="#"><img data-original="img/app-weixinQr.jpg" /></a>
+						<a href="#"><img data-original="../img/app-weixinQr.jpg" /></a>
 					</div>
 				</div>
 
@@ -3450,15 +3400,15 @@
 					<p> Copyright&nbsp;&copy;&nbsp;2008-2017&nbsp;<b>Xiu.com</b>&nbsp;深圳走秀网络科技有限公司&nbsp;版权所有&nbsp;.&nbsp;<b><a href="http://www.miibeian.gov.cn">粤ICP备07502993号</a></b></p>
 
 					<a href="#" style="margin-right:22px;">
-						<img data-original="img/c_01.jpg" /></a>
+						<img data-original="../img/c_01.jpg" /></a>
 					<a href="" style="margin-right:22px;">
-						<img data-original="img/c_11.jpg" /></a>
+						<img data-original="../img/c_11.jpg" /></a>
 					<a href="http://www.sznet110.gov.cn" style="margin-right:22px;">
-						<img data-original="img/c_04.jpg" /></a>
+						<img data-original="../img/c_04.jpg" /></a>
 					<a href="http://www.sznet110.gov.cn" style="margin-right:22px;">
-						<img data-original="img/c_08.jpg" /></a>
+						<img data-original="../img/c_08.jpg" /></a>
 					<a href="">
-						<img data-original="img/c_09.jpg" /></a>
+						<img data-original="../img/c_09.jpg" /></a>
 				</div>
 
 			</div>
