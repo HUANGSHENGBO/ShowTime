@@ -1,7 +1,5 @@
 $(function(e) {
 
-
-
 	//轮播图
 	$('#b').unslider({
 		dots: true
@@ -53,31 +51,38 @@ $(function(e) {
 		}
 
 	});
+
 	//	背景居中
 	let aImg = $('#find .radius-nav a');
 	aImg.append('<i></i>');
-	//瀑布流布局
-	//瀑布流布局
-	imgLocation();
 
-	function imgLocation() {
+	//瀑布流布局
+	//瀑布流布局
+	$(window).load(function() {
+
+		var imgHeight = $('#find .pic .content .box img');
 		var box = $('#find .pic .content .box');
-		//获取盒子宽度
+		console.log(imgHeight);
+		var boxHeight = null;
+		var boxArr = [];
 		var boxWidth = box.eq(0).width();
-//		console.log(box.eq(4));
-//		console.log(box.eq(0).width());
-		
 		//获取一行可摆放盒子数
 		var num = Math.floor($('#find .pic .content').width() / boxWidth);
 		//创建数组存储盒子高度
-		var boxArr = [];
+
+		//		for(let i=0;i<imgHeight.length;i++){
+		//			box.eq(i).css('height', $('#find .pic .content .box:nth-of-type('+(i+1)+') a img').height() + 105);
+		//		}
+
 		//遍历盒子高度
 		box.each(function(index, value) {
 			//index表示下标
 			//value 表示盒子对象
 			//	console.log(index +"--"+value);
 			//获取盒子高度
-			var boxHeight = box.eq(index).height();  // 获取到的数据有问题// 获取到的数据有问题// 获取到的数据有问题
+			//			var boxHeight = $('#find .pic .content .box:nth-of-type(' + (index + 1) + ') img').height() + 105;
+			var boxHeight = box.eq(index).height() + 20;
+			console.log(boxHeight);
 			//判断是否为第一行盒子
 			if(index < num) {
 				//将盒子高度存储到数组内
@@ -98,14 +103,9 @@ $(function(e) {
 					'left': box.eq(minboxIndex).position().left
 				});
 				//重新获取该行高度
-				boxArr[minboxIndex] += box.eq(index).height();
+				boxArr[minboxIndex] += boxHeight;
 			}
 		});
-	}
-	
-		$("img").lazyload({ 
-		 placeholder: '../img/imgload.jpg',
-		 effect: "fadeIn",
 	});
-	
+
 })

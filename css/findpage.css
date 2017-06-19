@@ -2,6 +2,7 @@
 	width: 1200px;
 	padding-top: 20px;
 	margin: 0 auto;
+	height:2500px;
 }
 
 .banner {
@@ -86,10 +87,15 @@
 }
 #find .pic .content .box {
 	width:380px;
-	margin:40px 10px;
+	margin:10px;
 	float: left;
 }
-
+#find .pic .content .box img{
+	transition:500ms;
+}
+#find .pic .content .box:hover img{
+	opacity:0.8;
+}
 #find .pic .content .box .sbox{
 	margin-top:20px 0 10px;
 	border:1px solid beige;

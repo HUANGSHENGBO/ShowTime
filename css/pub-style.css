@@ -17,6 +17,7 @@ img {
 	font-size: 13px;
 }
 
+
 i {
 	font-style: normal;
 }
@@ -72,6 +73,7 @@ a {
 	top: 2px;
 	left: 0;
 	height: 30px;
+	z-index:10;
 }
 
 #header .top-logo .left-view ul li {
@@ -110,7 +112,6 @@ a {
 #header .top-logo .left-view ul li:nth-of-type(2):hover p {
 	background: white;
 	display: block;
-	/*z-index: 100;*/
 }
 
 #header .top-logo .left-view ul li i {
@@ -123,13 +124,11 @@ a {
 	background: url(../img/header-top-show1.png) no-repeat 65px 17px;
 	float:left;
 	width:53px;
-	/*padding-right: 15px;*/
 }
 
 #header .top-logo .left-view ul li:nth-of-type(3):hover a.show {
 	background: url(../img/header-top-show2.png) no-repeat right 16px, white;
 	color: red;
-	/*padding-right: 18px;*/
 }
 #header .top-logo .left-view ul li:nth-of-type(3) {
 	margin-right: 0px;
@@ -819,7 +818,7 @@ a {
 #content{
 	width:100%;
 	background:black;
-	min-height: 2500px;
+	min-height: 500px;
 	/*height:auto;*/
 }
 

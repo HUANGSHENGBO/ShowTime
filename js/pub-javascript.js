@@ -158,11 +158,9 @@ for(let i = 1; i <= 6; i++) {
 		}
 	}
 }
-
-//	placeholder : "img/grey.gif"
 	$("img").lazyload({ 
 		 placeholder: 'img/imgload.jpg',
-		 effect: "fadeIn",
+		 effect: "fadeIn"
 	});
 		 
 //格式化
