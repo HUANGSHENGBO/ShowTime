@@ -19,35 +19,38 @@
 }
 
 #show .myshow h2 {
-	
 	padding-left: 20px;
 	color: #232323;
 	background: url(../img/myShow/myshow.png) repeat-X bottom left, #e1dfdf;
 }
+
 #show .myshow h2 a {
 	height: 70px;
 	line-height: 70px;
 	font-size: 20px;
 }
+
 #show .myshow .list h3 {
 	height: 28px;
 	line-height: 30px;
 	padding-left: 15px;
-	background:url(../img/myShow/myshow-up.png) no-repeat 210px 9px,#f0f0f0;
+	background: url(../img/myShow/myshow-up.png) no-repeat 210px 9px, #f0f0f0;
 }
 
 #show .myshow .list ul li {
 	padding-left: 20px;
 }
-#show .myshow .list ul{
-	clear:both;
-	margin:10px 0;
+
+#show .myshow .list ul {
+	clear: both;
+	margin: 10px 0;
 }
+
 #show .myshow .list ul li a {
 	font-size: 11px;
 	line-height: 22px;
 	height: 22px;
-	color:#5b5b5b;
+	color: #5b5b5b;
 }
 
 #show .myshow .list ul li a i {
@@ -59,82 +62,99 @@
 	color: red;
 	font-weight: bold;
 }
-#show .myshow .list .display{
-	display:none;
+
+#show .myshow .list .display {
+	display: none;
 }
+
 #show .wel {
 	width: 504px;
 	height: 500px;
 	margin: 0 10px;
 	/*background: #e1dfdf;*/
 }
-#show .wel .top{
-	height:90px;
-	width:100%;
-	border-bottom:3px solid #d7d7d7;
-	margin-bottom:27px;
+
+#show .wel .top {
+	height: 90px;
+	width: 100%;
+	border-bottom: 3px solid #d7d7d7;
+	margin-bottom: 27px;
 }
-#show .wel .top img{
-	margin-left:15px;
-	margin-right:25px;
-	border:1px solid #d7d7d7;
+
+#show .wel .top img {
+	margin-left: 15px;
+	margin-right: 25px;
+	border: 1px solid #d7d7d7;
 }
-#show .wel .top div{
+
+#show .wel .top div {
 	height: 20px;
 }
-#show .wel .top div i{
+
+#show .wel .top div i {
 	display: block;
-	height:20px;
-	line-height:20px;
-	text-indent:25px;
-	margin-bottom:10px;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 25px;
+	margin-bottom: 10px;
 }
-#show .wel .top div i:nth-of-type(2){
-	width:200px;
-	color:#F76F29;
+
+#show .wel .top div i:nth-of-type(2) {
+	width: 200px;
+	color: #F76F29;
 }
-#show .wel .top div i:nth-of-type(1){
-	width:100px;
-	background:url(../img/myShow/who.png) no-repeat left -4px;
-	color:#F76F29;
-	white-space:nowrap;
+
+#show .wel .top div i:nth-of-type(1) {
+	width: 100px;
+	background: url(../img/myShow/who.png) no-repeat left -4px;
+	color: #F76F29;
+	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-#show .wel .top div i:nth-of-type(3){
-	background:url(../img/myShow/iphone.png) no-repeat left top;
-	margin-right:15px;
-}
-#show .wel .top div i:nth-of-type(4) a{
-	text-decoration:underline;
-}
-#show .wel .top div i:nth-of-type(4){
-	background:url(../img/myShow/tell.png) no-repeat left top;
-}
-#show .wel .mid{
-	padding-left:40px;
-	height:300px;
-	border-bottom:1px dashed darkgray;
-}
-#show .wel .mid p{
-	margin-bottom:20px ;
-}
-#show .wel .mid p a{
-	color:gray;
-}
-#show .wel .mid p a:hover{
-	color:#F76F29;
+
+#show .wel .top div i:nth-of-type(3) {
+	background: url(../img/myShow/iphone.png) no-repeat left top;
+	margin-right: 15px;
 }
 
-#show .wel .liulan{
-	margin-top:20px;
+#show .wel .top div i:nth-of-type(4) a {
+	text-decoration: underline;
 }
-#show .wel .liulan h4{
-	height:30px;
-	line-height:30px; 
-	text-indent:15px;
-	background:#f0f0f0;
+
+#show .wel .top div i:nth-of-type(4) {
+	background: url(../img/myShow/tell.png) no-repeat left top;
 }
+
+#show .wel .mid {
+	padding-left: 40px;
+	height: 300px;
+	border-bottom: 1px dashed darkgray;
+}
+
+#show .wel .mid p {
+	margin-bottom: 20px;
+}
+
+#show .wel .mid p a {
+	color: gray;
+}
+
+#show .wel .mid p a:hover {
+	color: #F76F29;
+}
+
+#show .wel .liulan {
+	margin-top: 20px;
+}
+
+#show .wel .liulan h4 {
+	height: 30px;
+	line-height: 30px;
+	text-indent: 15px;
+	background: #f0f0f0;
+}
+
 #show .tell {
 	width: 212px;
 	/*height: 500px;*/
@@ -147,22 +167,133 @@
 	height: 28px;
 	line-height: 30px;
 	padding-left: 15px;
-	color:white;
-	background:gray;
+	color: white;
+	background: gray;
 }
 
 #show .tell .list ul li {
 	padding-left: 10px;
-	list-style:disc inside;
+	list-style: disc inside;
 }
-#show .tell .list ul{
-	clear:both;
-	margin:10px 0;
+
+#show .tell .list ul {
+	clear: both;
+	margin: 10px 0;
 	background: #f0f0f0;
 }
-#show .tell .list ul li a{
-	font-size:11px;
+
+#show .tell .list ul li a {
+	font-size: 11px;
 }
-#show .tell .list ul li a:hover{
-	color:#F76F29;
+
+#show .tell .list ul li a:hover {
+	color: #F76F29;
+}
+
+#show .tell .list ul:nth-last-of-type(1) li a {
+	color: blue;
+	text-decoration: underline;
+}
+
+.order {
+	display: none;
+}
+
+.order>h3 {
+	background: url(../img/myShow/who.png) no-repeat left -4px;
+	color: #fc621c;
+	font-size: 14px;
+	text-indent: 20px;
+	border-bottom: 4px solid #f7b569;
+	height: 26px;
+	margin-bottom: 18px;
+}
+
+
+.order .wel p a {
+	float: left;
+	width: 114px;
+	height: 27px;
+	display: block;
+	margin-right: 2px;
+	line-height: 27px;
+	background: #eae8e8;
+	text-align: center;
+	border-radius: 3px 3px 0 0;
+	cursor: pointer;
+}
+
+.order p a:hover {
+	color: white;
+	background: #F76F29;
+	font-weight: bold;
+}
+
+.order p .change {
+	color: white;
+	background: #F76F29;
+	font-weight: bold;
+}
+
+.order input:nth-of-type(2) {
+	width: 60px;
+	height: 24px;
+	border-radius: 3px;
+	border: 1px solid gray;
+}
+
+.order input:nth-of-type(2):hover {
+	color: #F76F29;
+}
+
+.order .none {
+	display: none;
+	margin-bottom:20px;
+}
+
+.order .display {
+	display: block;
+}
+
+.order .none input {
+	width: 135px;
+	height: 17px;
+	margin-top:10px;
+}
+
+.order .none input:nth-of-type(1),
+.order .none input:nth-of-type(2) {
+	width: 75px;
+}
+
+.order table {
+	width: 730px;
+	height: 27px;
+	border: 1px solid gray;
+	background: #eeeeee;
+	border-bottom: 0;
+		margin-top:10px;
+}
+
+.order .tab {
+	text-align: center;
+	color: red;
+	border: 1px solid gray;
+	border-top: 0;
+	height: 17px;
+	line-height: 17px;
+}
+
+.order .text {
+	background: #eeeeee;
+	margin-top: 40px;
+	height: 78px;
+	width: 100%;
+	padding: 12px 0 0;
+}
+
+.order .text p {
+	border: 0;
+	padding-left: 16px;
+	height: 19px;
 }

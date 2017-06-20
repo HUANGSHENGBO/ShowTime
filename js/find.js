@@ -108,4 +108,10 @@ $(function(e) {
 		});
 	});
 
+	$('img').attr('data-original', $('img').attr('src'));
+	$("img").lazyload({
+		placeholder: '../img/imgload.jpg',
+		effect: "fadeIn"
+	});
+
 })

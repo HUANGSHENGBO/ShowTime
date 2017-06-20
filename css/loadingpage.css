@@ -49,11 +49,13 @@
 
 #loading .content .inpu .change {
 	color: #464646;
+	font-weight:bold;
 	background: url(../img/appimg/loading-bg.png) repeat-X bottom left, #f7f7f9;
 }
 
 #loading .content .inpu .color {
 	color: #464646;
+	font-weight:bold;
 	background: url(../img/appimg/loading-bg.png) repeat-X bottom left, #f7f7f9;
 }
 
@@ -138,6 +140,7 @@
 
 #loading .content .inpu h5 {
 	text-align: center;
+	font-weight:normal;
 }
 
 #loading .content .inpu h4 {
@@ -201,34 +204,34 @@
 	color: red;
 }
 
-#loading .footer {
-	height: 110px;
+ .footer {
+	height: 90px;
 }
 
-#loading .footer ul {
+ .footer ul {
 	width: 590px;
 	margin: 25px auto 15px;
 }
 
-#loading .footer ul li {
+ .footer ul li {
 	float: left;
 	padding: 0 10px;
 	border-left: 1px solid black;
 }
 
-#loading .footer ul li:nth-of-type(1) {
+ .footer ul li:nth-of-type(1) {
 	border-left: 0;
 }
 
-#loading .footer ul li a:hover {
+ .footer ul li a:hover {
 	text-decoration: underline;
 }
 
-#loading .footer {
+ .footer {
 	text-align: center;
 }
 
-#loading .footer span {
+ .footer span {
 	display: inline-block;
 	margin-top: 15px;
 	color: gray;
