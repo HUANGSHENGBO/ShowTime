@@ -116,8 +116,15 @@
 	height: 36px;
 	float: right;
 }
-
-#loading .content .inpu #form1 i {
+#loading .content .inpu #form1>i{
+	display: block;
+	height: 14px;
+	line-height: 14px;
+	
+	color: red;
+	margin-bottom:10px;
+}
+#loading .content .inpu #form1 p i {
 	display: block;
 	float: left;
 	width: 14px;

@@ -1,0 +1,85 @@
+body{
+	/*width:1583px;*/
+	background: url(../img/men/body_bg2.jpg) -169px top;
+	background-attachment: fixed;
+	/*background: 100%;*/
+}
+#men {
+	position: relative;
+}
+
+#men  .img {
+	width:130px;
+	height:300px;
+	position: fixed;
+	bottom: 0;
+	right: 5px;
+	z-index: 10;
+}
+#men  .img a{
+	display: block;
+	float:left;
+	width:130px;
+	height:40px;
+	margin-bottom:16px;
+}
+#men  .img a:nth-of-type(1){
+	background:url(../img/men/menu0221_2.png) left top;
+}
+#men  .img a:nth-of-type(1):hover{
+	background:url(../img/men/menu0221_2.png) -150px top;
+}
+#men  .img a:nth-of-type(2){
+	background:url(../img/men/menu0221_2.png) left -50px;
+}
+#men  .img a:nth-of-type(2):hover{
+	background:url(../img/men/menu0221_2.png) -150px -50px;
+}
+#men  .img a:nth-of-type(3){
+	background:url(../img/men/menu0221_2.png) left -100px;
+}
+#men  .img a:nth-of-type(3):hover{
+	background:url(../img/men/menu0221_2.png) -150px -100px;
+}
+#men  .img a:nth-of-type(4){
+	background:url(../img/men/menu0221_2.png) left -150px;
+}
+#men  .img a:nth-of-type(4):hover{
+	background:url(../img/men/menu0221_2.png) -150px -150px;
+}
+#men  .img a:nth-of-type(5){
+	background:url(../img/men/menu0221_2.png) left -200px;
+}
+#men  .img a:nth-of-type(5):hover{
+	background:url(../img/men/menu0221_2.png) -150px -200px;
+}
+#men  .img a:nth-of-type(6){
+	background:url(../img/men/menu0221_2.png) left -250px;
+}
+#men  .img a:nth-of-type(6):hover{
+	background:url(../img/men/menu0221_2.png) -150px -250px;
+}
+
+#men .none{
+	height:680px;
+}
+#men .content {
+	background-color: rgba(1, 1, 1, 0.2);
+	width:1250px;
+	margin:0 auto;
+	
+}
+#men .content ul {
+	width:1250px;
+	margin:0 auto;
+}
+#men .content ul li{
+	position:relative;
+	top:0;
+	float:left;
+	margin:15px;
+	transition:500ms;
+}
+#men .content ul li:hover{
+	top:-10px;
+}

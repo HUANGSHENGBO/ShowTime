@@ -1002,8 +1002,8 @@ a {
 
 #footer .bottom-half ul {
 	width: 729px;
-	margin-top: 25px;
-	margin: 25px auto 20px;
+	padding-top:25px;
+	margin: 0 auto 20px;
 }
 
 #footer .bottom-half ul li {

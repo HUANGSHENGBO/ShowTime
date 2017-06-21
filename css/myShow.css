@@ -245,7 +245,9 @@
 .order input:nth-of-type(2):hover {
 	color: #F76F29;
 }
-
+.order .wel i{
+	background:url(../img/myShow/myshow-order-bg2.png) no-repeat top right;
+}
 .order .none {
 	display: none;
 	margin-bottom:20px;
@@ -256,14 +258,14 @@
 }
 
 .order .none input {
-	width: 135px;
+	width: 120px;
 	height: 17px;
 	margin-top:10px;
 }
 
-.order .none input:nth-of-type(1),
-.order .none input:nth-of-type(2) {
-	width: 75px;
+.order .none input:nth-of-type(3),
+.order .none input:nth-of-type(4) {
+	width: 120px;
 }
 
 .order table {

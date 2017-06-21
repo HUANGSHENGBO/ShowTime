@@ -1,0 +1,35 @@
+#new {
+	position: relative;
+}
+
+#new .left-app img {
+	position: fixed;
+	top: 288px;
+	left: 60px;
+	z-index: 100;
+	display: none;
+}
+
+#new .first-bg .bbg {
+	width: 1583px;
+}
+
+#new .img {
+	padding-top: 20px;
+	background: #b0ddfc;
+}
+
+#new .img ul {
+	width:1200px;
+	margin:0 auto;
+}
+#new .img ul li{
+	position:relative;
+	top:0;
+	float:left;
+	margin:15px;
+	transition:500ms;
+}
+#new .img ul li:hover{
+	top:-10px;
+}

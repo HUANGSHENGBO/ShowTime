@@ -1,0 +1,188 @@
+#shopping{
+	margin:0 auto;
+	width:1000px;
+	min-height:1000px;
+}
+#shopping .title{
+	margin:10px 0;
+}
+#shopping .title  a{
+	color:blue;
+	margin:0 10px;
+}
+#shopping .title .list{
+	display: inline-block;
+}
+#shopping .title  .list{
+	position:relative;
+}
+#shopping .title  .list .change{
+	position:relative;
+	z-index: 12;
+}
+#shopping .title  .list .change .hover{
+	border:#F76F29 1px solid;
+	border-bottom:white 1px solid;
+}
+
+#shopping .title  .list  ul{
+	position: absolute;
+	top:30px;
+	left:10px;
+	width:365px;
+	height:107px;
+	border:#F76F29 1px solid;
+	background:white;
+	display:none;
+	z-index: 10;
+}
+#shopping .title  .list ul li{
+	display: block;
+	width:90px;
+	float:left;
+	text-align:center;
+	height:27px;
+	line-height:27px;
+}
+#shopping .title  .list ul a{
+	padding:0;
+	color:gray;
+}
+#shopping .title  .list ul li:nth-of-type(4) a{
+	color:#F76F29;
+}
+#shopping .title  .list ul a:hover{
+	color:#F76F29;
+}
+#shopping .title .list div a{
+	display: inline-block;
+	border:1px solid white;
+	padding:6px;
+	width:43px;
+	margin-left:10px;
+	background:url(../img/shopping/shopping-p-a-bg.png) no-repeat 34px 9px;
+}
+#shopping .title i{
+	float:right;
+}
+#shopping .title i span{
+	color:red;
+}
+#shopping .select{
+	width:100%;
+	border:1px solid #dfdfdf;
+	border-bottom-width:2px;
+	position:relative;
+}
+#shopping .select .shousuo{
+	position:absolute;
+	bottom:-28px;
+	left:350px;
+	width:275px;
+	height:27px;
+	line-height:27px;
+	border:1px solid #dfdfdf;
+	border-top:0;
+	z-index: 10;
+	text-align:center;
+	background:url(../img/myShow/myshow-down.png) no-repeat 260px 9px ,#efefef;
+}
+#shopping .select div:nth-of-type(3),
+#shopping .select div:nth-of-type(5){
+	background:#efefef;
+}
+#shopping .select div .b{
+	display: inline-block;
+	width:70px;
+	line-height:37px;
+	text-align:center;
+	background: #f9f9f9;
+	position:relative;
+    padding:0 3px;
+}
+#shopping .select div a{
+	display: inline-block;
+	margin: 3px 20px ;
+	text-align:left;
+	font-size:11px;
+	line-height:20px;
+	padding:2px;
+}
+#shopping .select div:nth-of-type(2) a{
+	margin: 3px 50px 3px 20px;
+}
+#shopping .select div:nth-of-type(2) a:nth-of-type(6){
+	margin-left:90px;
+}
+#shopping .select div a:hover{
+	background:#F76F29;
+}
+#shopping .choose{
+	margin-top:35px;
+	border:1px solid #dfdfdf;
+	border-top:2px solid #F76F29;
+	height:30px;
+	background:#f9f9f9;
+	padding-top:10px;
+	margin-bottom:23px;
+}
+#shopping .choose .list{
+	width:270px;
+	margin: 0 10px 0 18px;
+}
+#shopping .choose .list a{
+	display:block;
+	float:left;
+	padding:0 10px;
+	line-height:18px;
+	border:1px solid darkgray;
+	border-right:0;
+}
+#shopping .choose .list a:nth-last-of-type(1){
+	border:1px solid darkgray;
+}
+#shopping .choose .list a img{
+	margin-left:5px;
+	margin-bottom:1px;
+}
+/*#shopping .choose .list .yellow{
+	color:white;
+}*/
+#shopping .choose .next a{
+	margin-right:6px;
+}
+#shopping .choose .next a img{
+	margin:0 5px;
+}
+#shopping .choose .next a:nth-of-type(2) img{
+	margin-top:5px;
+}
+#shopping .content .contain{
+	width:246px;
+	height:394px;
+	border:2px solid white;
+	float:left;
+}
+#shopping .content .contain:hover{
+	border:2px solid #dfdfdf;
+}
+#shopping .content .contain img{
+	width:246px;
+	height:314px;
+}
+#shopping .content .contain .sbox{
+	border-top:1px solid #dfdfdf;
+	padding:10px 0 0 10px;
+}
+#shopping .content .contain .sbox p{
+	line-height:22px;
+	height:22px;
+	font-size:12px;
+}
+#shopping .content .contain .sbox h3{
+	margin-top:6px;
+	font-size:14px;
+}
+#shopping .content .contain .sbox h3 b{
+	color:red;
+}

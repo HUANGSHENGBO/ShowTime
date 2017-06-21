@@ -1,0 +1,83 @@
+body{
+	background: url(../img/women/body_bg2.jpg) -169px top;
+	background-attachment: fixed;
+}
+#women {
+	position: relative;
+}
+
+#women  .img {
+	width:130px;
+	height:300px;
+	position: fixed;
+	bottom: 0;
+	right: 5px;
+	z-index: 10;
+}
+#women  .img a{
+	display: block;
+	float:left;
+	width:130px;
+	height:40px;
+	margin-bottom:16px;
+}
+#women  .img a:nth-of-type(1){
+	background:url(../img/women/menu0221_2.png) left top;
+}
+#women  .img a:nth-of-type(1):hover{
+	background:url(../img/women/menu0221_2.png) -150px top;
+}
+#women  .img a:nth-of-type(2){
+	background:url(../img/women/menu0221_2.png) left -50px;
+}
+#women  .img a:nth-of-type(2):hover{
+	background:url(../img/women/menu0221_2.png) -150px -50px;
+}
+#women  .img a:nth-of-type(3){
+	background:url(../img/women/menu0221_2.png) left -100px;
+}
+#women  .img a:nth-of-type(3):hover{
+	background:url(../img/women/menu0221_2.png) -150px -100px;
+}
+#women  .img a:nth-of-type(4){
+	background:url(../img/women/menu0221_2.png) left -150px;
+}
+#women  .img a:nth-of-type(4):hover{
+	background:url(../img/women/menu0221_2.png) -150px -150px;
+}
+#women  .img a:nth-of-type(5){
+	background:url(../img/women/menu0221_2.png) left -200px;
+}
+#women  .img a:nth-of-type(5):hover{
+	background:url(../img/women/menu0221_2.png) -150px -200px;
+}
+#women  .img a:nth-of-type(6){
+	background:url(../img/women/menu0221_2.png) left -250px;
+}
+#women  .img a:nth-of-type(6):hover{
+	background:url(../img/women/menu0221_2.png) -150px -250px;
+}
+
+#women .none{
+	height:680px;
+}
+#women .content {
+	background-color: rgba(1, 1, 1, 0.2);
+	width:1250px;
+	margin:0 auto;
+	
+}
+#women .content ul {
+	width:1250px;
+	margin:0 auto;
+}
+#women .content ul li{
+	position:relative;
+	top:0;
+	float:left;
+	margin:15px;
+	transition:500ms;
+}
+#women .content ul li:hover{
+	top:-10px;
+}
